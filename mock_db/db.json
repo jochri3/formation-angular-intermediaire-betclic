@@ -1,0 +1,66 @@
+{
+  "orders": [
+    {
+      "tjmHt": 1200,
+      "nbJours": 1,
+      "tva": 20,
+      "state": "CANCELED",
+      "typePresta": "coaching",
+      "client": "M2i",
+      "comment": null,
+      "id": 2
+    },
+    {
+      "tjmHt": 1200,
+      "nbJours": 1,
+      "tva": 20,
+      "state": "CANCELED",
+      "typePresta": "formation",
+      "client": "capgemini",
+      "comment": null,
+      "id": 4
+    }
+  ],
+  "clients": [
+    {
+      "state": "INACTIVE",
+      "tva": 20,
+      "totalCaHt": 120000,
+      "id": 2,
+      "name": "Modis",
+      "comment": "un comment pour client modis"
+    },
+    {
+      "state": "ACTIVE",
+      "tva": 20,
+      "totalCaHt": 1000,
+      "name": "Betclic2",
+      "comment": "no comment",
+      "id": 3
+    },
+    {
+      "name": "test",
+      "tva": 20,
+      "state": "ACTIVE",
+      "totalCaHt": 1000,
+      "comment": null,
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$EzFXv4jVbUjql.arOh8TB.ecNBAzHoN5dPWpOQza38t3PxW9aCXzW",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "id": 1
+    },
+    {
+      "email": "christian.lisangola@gmail.com",
+      "password": "$2a$10$HWoBpskMu3RNynukoRsdx.EkCosRZE7v8xzDax6wFrq7U.WozCLd.",
+      "firstname": "christian",
+      "lastname": "lisangola",
+      "id": 2
+    }
+  ]
+}

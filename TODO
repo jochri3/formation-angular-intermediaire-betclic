@@ -1,0 +1,46 @@
+
+Todo:
+  ✔ ecrire le code et tester template-container avec binding @done(21-11-23 16:53)
+  ✔ créer les routes pour la partie clients (clients routing module) @done(21-11-23 16:53)
+  ✔ deplacer les routes pour la partie login dans login routing module @done(21-11-23 16:53)
+  ✔ corriger le bug pour faire fonctionner les route sign-in, sign-up, reset et forgot (la seule modif à faire sur  AppModule) @done(21-11-23 16:53)
+
+Todo:
+  ✔ enum, interface, model, service, page list clients @done(21-11-24 17:00)
+  ✔ pour le model Client (stateClient.ACTIVE, 20 tva, totalCaHt 1000) @done(21-11-24 17:00)
+  ✔ dans pipe list client on affiche le name, total ca ht, tva, totalTTC, state (total ttc est a calculer en utilisant le meme pipe total) @done(21-11-24 17:00)
+
+Todo:
+  ✔ afficher un num version qui start a 1 dans header, footer, templatefullwidth html @done(21-11-24 17:00)
+  ✔ un button dans nav component qui increment le num de version @done(21-11-24 17:00)
+  ✔ on veut que l'incrementation soit visible dans header, footer, templatefullwidth @done(21-11-24 17:00)
+  ✔ indices : create a service (core/services) @done(21-11-24 17:00)
+  ✔ indices : use an observable @done(21-11-24 17:00)
+  ✔ rxjs : Subject et BehaviorSubject @done(21-11-24 17:00)
+
+  Todo:
+    ☐ partie clients en prenant exemple sur la partie orders
+
+  Todo:
+    ✔ créer un component supide btn-action et l'utiliser dans le nav pour l'incrementation @done(21-11-26 14:21)
+    ✔ il doit prendre 1 @Input() pour passer du parent vers l'enfant un texte qui apparait dans le bouton @done(21-11-26 14:21)
+    ✔ il doit prendre 1 @Output() pour passer au parent l'info que le bouton a été cliqué @done(21-11-26 14:21)
+    ✔ le parent (nav) récupère l'info dans le html et invoque la fonction increment() dès qu'il sait que le bouton a été cliqué @done(21-11-26 14:21)
+    ✔ indice : voir l'EventEmitter dans la doc officielle @done(21-11-26 14:21)
+
+    Todo:
+      ☐ TP edit
+      ☐ ajouter un icon edit dans une colone action sur page list orders
+      ☐ quand on clique sur icon, redirection vers route orders/edit ?
+      ☐ page edit order doit récupérer l'id pour app getItemById dans le service qui fait l'appel http
+      ☐ passer l'item return par l'appel http à l'input init de form order component
+      ☐ rien à modifier dans form component
+      ☐ dans edit component vous utilisez l'output submited pour call une methode action($event)
+      ☐ dans action(item: Order) vous appelez la methode update du service
+      ☐ l'utilisateur doit etre redirect vers la route orders après l'update
+      ☐ indice 1 : tout dans la doc officiel partie httpClient (tutaux)
+      ☐ indice 2 : voir ActivatedRoute (service)
+
+Todo:
+  ☐ TP Delete
+  ☐ ajouter un icon delete dans page list orders pour delete item en bdd
